@@ -14,13 +14,13 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:src="@drawable/icon_login"
+        android:src="@drawable/baru"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Daftar"
+        android:text="Daftar akun Tokokom"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginRight="16dp"
@@ -78,6 +78,8 @@
 
             </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
 
+
+
             <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
@@ -93,7 +95,6 @@
             <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="10dp"
                 app:labelText="Password">
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
@@ -119,6 +120,15 @@
                 app:nb_radius="5dp"
                 app:nb_text="Daftar"
                 app:nb_textColor="#FFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun ? Login Disini"
+                android:background="@null"
+                android:id="@+id/btnbacklogin"
+                android:textAllCaps="false"/>
+
 
 
 
